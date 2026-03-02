@@ -1,5 +1,5 @@
 <network>
-  <name>vs-lab</name>
+  <name>nat0</name>
   <forward mode='nat'/>
   <bridge name='vsn0'/>
   <ip address='10.50.0.1' netmask='255.255.255.0'>

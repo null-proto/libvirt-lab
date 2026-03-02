@@ -1,5 +1,5 @@
 <network>
-  <name>vs-net2</name>
+  <name>net2</name>
   <forward mode='nat'/>
   <bridge name='vsn1'/>
   <ip address='192.168.100.1' netmask='255.255.255.0'>
