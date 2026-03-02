@@ -1,0 +1,10 @@
+<network>
+  <name>vs-lab</name>
+  <forward mode='nat'/>
+  <bridge name='vsn0'/>
+  <ip address='10.50.0.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='10.50.0.10' end='10.50.0.200'/>
+    </dhcp>
+  </ip>
+</network>
